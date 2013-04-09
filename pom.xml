@@ -168,18 +168,6 @@
                 <version>${project.version}</version>
             </dependency>
 
-            <dependency>
-                <groupId>com.google.appengine.tck</groupId>
-                <artifactId>appengine-tck-coverage</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.google.appengine.tck</groupId>
-                <artifactId>appengine-tck-transformers</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-
             <!-- The TCK env -->
 
             <dependency>

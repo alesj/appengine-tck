@@ -58,7 +58,8 @@ public class URLFetchTest extends URLFetchTestBase {
 
         URL jbossOrg = new URL("http://www.jboss.org");
         if (available(jbossOrg)) {
-            response = service.fetchAsync(jbossOrg);
+            HTTPRequest request = new HTTPRequest(jbossOrg);
+            response = service.fetchAsync(request);
             printResponse(response.get(30, TimeUnit.SECONDS));
         }
 

@@ -1,1 +1,2 @@
+com.google.appengine.api.capabilities.CapabilitiesServiceFactory
 com.google.appengine.api.capabilities.CapabilitiesService
