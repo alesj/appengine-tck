@@ -50,7 +50,7 @@
         <version.junit>4.11</version.junit>
         <version.arquillian>1.1.1.Final</version.arquillian>
         <version.arquillian.gae>1.0.0.Beta7</version.arquillian.gae>
-        <version.arquillian.drone>1.2.0.Beta1</version.arquillian.drone>
+        <version.arquillian.drone>1.2.0.Final</version.arquillian.drone>
 
         <!-- Utils -->
         <version.org.javassist>3.15.0-GA</version.org.javassist>
@@ -84,6 +84,8 @@
         <version.org.json>20090211</version.org.json>
         <!-- Google Cloud Storage Client -->
         <version.com.google.appengine.tools.cloudstorage>0.3.1</version.com.google.appengine.tools.cloudstorage>
+        <!-- Google Http Jackson Client -->
+        <version.com.google.http.client.jackson>1.15.0-rc</version.com.google.http.client.jackson>
         <!--- Sonar -->
         <sonar.language>java</sonar.language>
 
@@ -786,6 +788,12 @@
                 <groupId>com.google.appengine.tools</groupId>
                 <artifactId>appengine-gcs-client</artifactId>
                 <version>${version.com.google.appengine.tools.cloudstorage}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.google.http-client</groupId>
+                <artifactId>google-http-client-jackson</artifactId>
+                <version>${version.com.google.http.client.jackson}</version>
             </dependency>
 
         </dependencies>
